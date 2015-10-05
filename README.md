@@ -26,3 +26,5 @@ u::::::::::::::u  n::::n    n::::n  o:::::ooooo:::::o
 Adds a button in CKEditor to watch Self-Hosted Videos on the site.
 Compatible with every browsers and supports.
 Adds also youtube button.
+
+[CMSUno](https://github.com/boiteasite/cmsuno)
