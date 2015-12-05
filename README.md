@@ -21,10 +21,15 @@ u::::::::::::::u  n::::n    n::::n  o:::::ooooo:::::o
      \____/           \/    \/            \__/
 </pre>
 
-### Video Player ###
+## Video Player ##
 
 Adds a button in CKEditor to watch Self-Hosted Videos on the site.
 Compatible with every browsers and supports.
-Adds also youtube button.
+Adds also oembed button to insert embedded content (such as photos, videos, audio, and other rich media).
 
 [CMSUno](https://github.com/boiteasite/cmsuno)
+
+### Versions ###
+
+* 1.1 - 05/12/2015 : Replace Youtube plugin by Oembed plugin that is more powerful and uses widget
+* 1.0 - 05/10/2015 : First stable version

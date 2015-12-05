@@ -5,12 +5,12 @@
 UconfigNum++;
 
 CKEDITOR.plugins.addExternal('video',UconfigFile[UconfigNum-1]+'/../video/');
-CKEDITOR.plugins.addExternal('youtube',UconfigFile[UconfigNum-1]+'/../youtube/');
+CKEDITOR.plugins.addExternal('oembed',UconfigFile[UconfigNum-1]+'/../oembed/');
 CKEDITOR.editorConfig=function(config){
 	config.extraPlugins+=',video';
 	config.toolbarGroups.push('video');
 	config.extraAllowedContent+='; video(*)[*]{*}; source(*)[*]{*}';
-	config.extraPlugins+=',youtube';
-	config.toolbarGroups.push('Youtube');
+	config.extraPlugins+=',oembed';
+	config.toolbarGroups.push('oembed');
 	if(UconfigFile.length>UconfigNum)config.customConfig=UconfigFile[UconfigNum];
 };

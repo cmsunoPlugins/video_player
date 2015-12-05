@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CmsUno\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-08-25 12:28+0100\n"
-"PO-Revision-Date: 2015-08-25 12:28+0100\n"
+"POT-Creation-Date: 2015-12-05 10:36+0100\n"
+"PO-Revision-Date: 2015-12-05 10:36+0100\n"
 "Last-Translator: jacques Malgrange <contacter@boiteasite.fr>\n"
 "Language-Team: Jacques Malgrange <contacter@boiteasite.fr>\n"
 "Language: \n"
@@ -43,11 +43,15 @@ msgstr "Para trabajar en todos los medios, el video debe estar disponible en mp4
 msgid "The mp4 must be encoded in H.264 for video and AAC for audio."
 msgstr "El mp4 debe ser codificado en H.264 para vídeo y AAC para el audio."
 
-#: ../../../video_player.php:22
-msgid "The YouTube button"
-msgstr "El botón YouTube"
+#: ../../../video_player.php:23
+msgid "The Oembed button"
+msgstr "El botón OEmbed"
 
-#: ../../../video_player.php:22
-msgid "is also added to the toolbar to insert a youtube video."
-msgstr "también se añade a la barra de herramientas para insertar un vídeo de youtube."
+#: ../../../video_player.php:23
+msgid "is also added to the toolbar to insert external video (youtube, dailymotion...), audio (spotify, soundcloud...), photo (flickr, instagram...) and rich (scribd, wikipedia...)."
+msgstr "también se añade a la barra de herramientas para insertar vídeo externo (youtube, dailymotion ...), audio (spotify, soundcloud ...), foto (flickr, Instagram ...) y texto enriquecido (Scribd, wikipedia ...)."
 
+#~ msgid "is also added to the toolbar to insert a youtube video."
+#~ msgstr ""
+#~ "también se añade a la barra de herramientas para insertar un vídeo de "
+#~ "youtube."
