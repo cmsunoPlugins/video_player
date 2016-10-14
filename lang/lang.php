@@ -7,9 +7,10 @@
 	//	
 	if(isset($langPlug[$lang]) && $langPlug[$lang])
 		{
-		putenv('LC_ALL='.$langPlug[$lang]);
-		setlocale(LC_ALL, $langPlug[$lang]);
-		bindtextdomain("video_player", dirname (__FILE__));
-		textdomain("video_player");
+		require_once(dirname(__FILE__).'/../../../includes/lang/php-gettext/gettext.inc');
+		T_setlocale(LC_MESSAGES, $langPlug[$lang]);
+		T_bindtextdomain("video_player", dirname(__FILE__));
+		T_bind_textdomain_codeset("video_player", "UTF-8");
+		T_textdomain("video_player");
 		}
 ?>

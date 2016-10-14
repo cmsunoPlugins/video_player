@@ -31,5 +31,6 @@ Adds also oembed button to insert embedded content (such as photos, videos, audi
 
 ### Versions ###
 
+* 1.2 - 14/10/2016 : Use PHP-Gettext in place of gettext
 * 1.1 - 05/12/2015 : Replace Youtube plugin by Oembed plugin that is more powerful and uses widget
 * 1.0 - 05/10/2015 : First stable version
