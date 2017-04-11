@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CmsUno\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-15 19:53+0100\n"
-"PO-Revision-Date: 2017-03-15 19:53+0100\n"
-"Last-Translator: malgrange <jacques.malgrange@gmail.com>\n"
+"POT-Creation-Date: 2017-04-11 19:25+0200\n"
+"PO-Revision-Date: 2017-04-11 19:25+0200\n"
+"Last-Translator: jacques Malgrange <contacter@boiteasite.fr>\n"
 "Language-Team: Jacques Malgrange <contacter@boiteasite.fr>\n"
 "Language: fr_FR\n"
 "MIME-Version: 1.0\n"
@@ -15,44 +15,81 @@ msgstr ""
 "X-Poedit-KeywordsList: _;T_\n"
 "X-Poedit-Basepath: .\n"
 "X-Poedit-SourceCharset: iso-8859-1\n"
-"X-Generator: Poedit 1.8.7.1\n"
+"X-Generator: Poedit 1.8.12\n"
 "X-Poedit-SearchPath-0: ../../..\n"
 
-#: ../../../video_player.php:17
+#: ../../../video_player.php:23
 msgid "Video Player"
 msgstr "Video Player"
 
-#: ../../../video_player.php:18
+#: ../../../video_player.php:25
 msgid ""
-"This plugin allows you to insert one or more video into the page content. "
-"The video should be accessible from the File manager."
+"This plugin allows you to insert one or more video into the page content."
 msgstr ""
-"Ce plugin permet d'insérer une ou plusieurs vidéo dans le contenu de la "
-"page. La vidéo doit être accessible depuis le Finder."
+"Ce plugin permet d'insérer une ou plusieurs vidéo dans le contenu de la page."
 
-#: ../../../video_player.php:19
+#: ../../../video_player.php:26
 msgid "It is used with the button"
 msgstr "Il s'utilise avec le bouton"
 
-#: ../../../video_player.php:19
+#: ../../../video_player.php:26
 msgid "added to the text editor when the plugin is enabled."
 msgstr "ajouté à l'éditeur de texte lorsque le plugin est actif."
 
-#: ../../../video_player.php:20
-msgid "To work in all media, the video should be available in mp4 and webm."
+#: ../../../video_player.php:27
+msgid "The video should be accessible from the File manager and should be mp4."
 msgstr ""
-"Pour fonctionner sur tous les supports, la vidéo doit être disponible en mp4 "
-"et webm."
+"La vidéo doit être accessible depuis le Finder et doit être au format mp4."
 
-#: ../../../video_player.php:21
-msgid "The mp4 must be encoded in H.264 for video and AAC for audio."
-msgstr "Le mp4 doit être encodé en H.264 pour la vidéo et AAC pour l'audio."
+#: ../../../video_player.php:30
+msgid "MP4 recommandations"
+msgstr "Recommandations MP4"
 
-#: ../../../video_player.php:23
+#: ../../../video_player.php:31
+msgid "MOOV atom at the front of the file (Fast Start)."
+msgstr "MOOV atom en tête du fichier (démarrage rapide)."
+
+#: ../../../video_player.php:32
+msgid "Video codec H264."
+msgstr "Codec Vidéo H264."
+
+#: ../../../video_player.php:32 ../../../video_player.php:40
+msgid "Recommandations :"
+msgstr "Recommandations :"
+
+#: ../../../video_player.php:34
+msgid "Proressive scan (no interlacing)."
+msgstr "Balayage progressif (pas d'entrelacement)."
+
+#: ../../../video_player.php:35
+msgid "Frame rates : 24, 25, 30."
+msgstr "Fréquence d'images : 24, 25, 30."
+
+#: ../../../video_player.php:36
+msgid "Bitrate : Between 1 and 5 Mbps."
+msgstr "Débit : Entre 1 et 5 Mbps."
+
+#: ../../../video_player.php:37
+msgid "Variable bitrate."
+msgstr "Débit variable."
+
+#: ../../../video_player.php:40
+msgid "Audio codec AAC."
+msgstr "Codec Audio AAC."
+
+#: ../../../video_player.php:42
+msgid "Sample rate 96 khz or 48 khz."
+msgstr "Taux d'échantillonnage 96 kHz ou 48 kHz."
+
+#: ../../../video_player.php:43
+msgid "Bitrate : 128 kbps."
+msgstr "Débit audio : 128 kbps."
+
+#: ../../../video_player.php:47
 msgid "The Oembed button"
 msgstr "Le bouton OEmbed"
 
-#: ../../../video_player.php:23
+#: ../../../video_player.php:47
 msgid ""
 "is also added to the toolbar to insert external video (youtube, "
 "dailymotion...), audio (spotify, soundcloud...), photo (flickr, "
@@ -61,6 +98,14 @@ msgstr ""
 "est également ajouté à la barre d'outils pour insérer une vidéo externe "
 "(youtube, dailymotion ...), un fichier audio (Spotify, SoundCloud ...), une "
 "photo (Flickr, Instagram ...) ou un contenu enrichi (Scribd, wikipedia ...)."
+
+#~ msgid "To work in all media, the video should be available in mp4 and webm."
+#~ msgstr ""
+#~ "Pour fonctionner sur tous les supports, la vidéo doit être disponible en "
+#~ "mp4 et webm."
+
+#~ msgid "The mp4 must be encoded in H.264 for video and AAC for audio."
+#~ msgstr "Le mp4 doit être encodé en H.264 pour la vidéo et AAC pour l'audio."
 
 #~ msgid "is also added to the toolbar to insert a youtube video."
 #~ msgstr ""

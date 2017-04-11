@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: CmsUno\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-03-15 19:54+0100\n"
-"PO-Revision-Date: 2017-03-15 19:54+0100\n"
-"Last-Translator: malgrange <jacques.malgrange@gmail.com>\n"
+"POT-Creation-Date: 2017-04-11 19:34+0200\n"
+"PO-Revision-Date: 2017-04-11 19:34+0200\n"
+"Last-Translator: jacques Malgrange <contacter@boiteasite.fr>\n"
 "Language-Team: Jacques Malgrange <contacter@boiteasite.fr>\n"
 "Language: es_ES\n"
 "MIME-Version: 1.0\n"
@@ -15,44 +15,82 @@ msgstr ""
 "X-Poedit-KeywordsList: _;T_\n"
 "X-Poedit-Basepath: .\n"
 "X-Poedit-SourceCharset: iso-8859-1\n"
-"X-Generator: Poedit 1.8.7.1\n"
+"X-Generator: Poedit 1.8.12\n"
 "X-Poedit-SearchPath-0: ../../..\n"
 
-#: ../../../video_player.php:17
+#: ../../../video_player.php:23
 msgid "Video Player"
 msgstr "Reproductor de vídeo"
 
-#: ../../../video_player.php:18
+#: ../../../video_player.php:25
 msgid ""
-"This plugin allows you to insert one or more video into the page content. "
-"The video should be accessible from the File manager."
+"This plugin allows you to insert one or more video into the page content."
 msgstr ""
-"Este plugin le permite insertar una o más vídeo en el contenido de la "
-"página. El video debe ser accesible desde el Administrador de archivos."
+"Este plugin le permite insertar una o más vídeo en el contenido de la página."
 
-#: ../../../video_player.php:19
+#: ../../../video_player.php:26
 msgid "It is used with the button"
 msgstr "Se utiliza con el botón"
 
-#: ../../../video_player.php:19
+#: ../../../video_player.php:26
 msgid "added to the text editor when the plugin is enabled."
 msgstr "añadido al editor de texto cuando el plugin está habilitado."
 
-#: ../../../video_player.php:20
-msgid "To work in all media, the video should be available in mp4 and webm."
+#: ../../../video_player.php:27
+msgid "The video should be accessible from the File manager and should be mp4."
 msgstr ""
-"Para trabajar en todos los medios, el video debe estar disponible en mp4 y "
-"webm."
+"El video debe ser accesible desde el Administrador de archivos y debe ser "
+"mp4."
 
-#: ../../../video_player.php:21
-msgid "The mp4 must be encoded in H.264 for video and AAC for audio."
-msgstr "El mp4 debe ser codificado en H.264 para vídeo y AAC para el audio."
+#: ../../../video_player.php:30
+msgid "MP4 recommandations"
+msgstr "Recomendaciones MP4"
 
-#: ../../../video_player.php:23
+#: ../../../video_player.php:31
+msgid "MOOV atom at the front of the file (Fast Start)."
+msgstr "Atom MOOV al principio del archivo (inicio rápido)"
+
+#: ../../../video_player.php:32
+msgid "Video codec H264."
+msgstr "Códec de video H.264"
+
+#: ../../../video_player.php:32 ../../../video_player.php:40
+msgid "Recommandations :"
+msgstr "Recomendaciones :"
+
+#: ../../../video_player.php:34
+msgid "Proressive scan (no interlacing)."
+msgstr "Escaneo progresivo (sin entrelazado)"
+
+#: ../../../video_player.php:35
+msgid "Frame rates : 24, 25, 30."
+msgstr "Velocidades de fotograma : 24, 25, 30."
+
+#: ../../../video_player.php:36
+msgid "Bitrate : Between 1 and 5 Mbps."
+msgstr "Tasas de bits : Entre 1 y 5 Mbps"
+
+#: ../../../video_player.php:37
+msgid "Variable bitrate."
+msgstr "Velocidad de bits variable."
+
+#: ../../../video_player.php:40
+msgid "Audio codec AAC."
+msgstr "Códec de audio AAC."
+
+#: ../../../video_player.php:42
+msgid "Sample rate 96 khz or 48 khz."
+msgstr "Frecuencia de muestreo de 96 khz o 48 khz."
+
+#: ../../../video_player.php:43
+msgid "Bitrate : 128 kbps."
+msgstr "Tasa de bits de audio : 128 kbps."
+
+#: ../../../video_player.php:47
 msgid "The Oembed button"
 msgstr "El botón OEmbed"
 
-#: ../../../video_player.php:23
+#: ../../../video_player.php:47
 msgid ""
 "is also added to the toolbar to insert external video (youtube, "
 "dailymotion...), audio (spotify, soundcloud...), photo (flickr, "
@@ -61,6 +99,14 @@ msgstr ""
 "también se añade a la barra de herramientas para insertar vídeo externo "
 "(youtube, dailymotion ...), audio (spotify, soundcloud ...), foto (flickr, "
 "Instagram ...) y texto enriquecido (Scribd, wikipedia ...)."
+
+#~ msgid "To work in all media, the video should be available in mp4 and webm."
+#~ msgstr ""
+#~ "Para trabajar en todos los medios, el video debe estar disponible en mp4 "
+#~ "y webm."
+
+#~ msgid "The mp4 must be encoded in H.264 for video and AAC for audio."
+#~ msgstr "El mp4 debe ser codificado en H.264 para vídeo y AAC para el audio."
 
 #~ msgid "is also added to the toolbar to insert a youtube video."
 #~ msgstr ""

@@ -23,14 +23,16 @@ u::::::::::::::u  n::::n    n::::n  o:::::ooooo:::::o
 
 ## Video Player ##
 
-Adds a button in CKEditor to watch Self-Hosted Videos on the site.
+Adds a button in CKEditor to watch Self-Hosted MP4 Videos on the site.
 Compatible with every browsers and supports.
+
 Adds also oembed button to insert embedded content (such as photos, videos, audio, and other rich media).
 
 [CMSUno](https://github.com/boiteasite/cmsuno)
 
 ### Versions ###
 
+* 1.3 - 11/04/2017 : Change self-hosted video player to video.js
 * 1.2.1 - 15/03/2017 : Fix issue when unknow lang
 * 1.2 - 14/10/2016 : Use PHP-Gettext in place of gettext
 * 1.1 - 05/12/2015 : Replace Youtube plugin by Oembed plugin that is more powerful and uses widget
