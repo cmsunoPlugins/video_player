@@ -32,6 +32,7 @@ Adds also oembed button to insert embedded content (such as photos, videos, audi
 
 ### Versions ###
 
+* 1.3.1 - 15/04/2017 : Add the video-js dependencies only if needed
 * 1.3 - 11/04/2017 : Change self-hosted video player to video.js
 * 1.2.1 - 15/03/2017 : Fix issue when unknow lang
 * 1.2 - 14/10/2016 : Use PHP-Gettext in place of gettext
